@@ -1,0 +1,14 @@
+D:\.Net\Class Work\Home Work Group\Home Work Group\bin\Debug\net8.0\Home Work Group.exe
+D:\.Net\Class Work\Home Work Group\Home Work Group\bin\Debug\net8.0\Home Work Group.deps.json
+D:\.Net\Class Work\Home Work Group\Home Work Group\bin\Debug\net8.0\Home Work Group.runtimeconfig.json
+D:\.Net\Class Work\Home Work Group\Home Work Group\bin\Debug\net8.0\Home Work Group.dll
+D:\.Net\Class Work\Home Work Group\Home Work Group\bin\Debug\net8.0\Home Work Group.pdb
+D:\.Net\Class Work\Home Work Group\Home Work Group\obj\Debug\net8.0\Home Work Group.GeneratedMSBuildEditorConfig.editorconfig
+D:\.Net\Class Work\Home Work Group\Home Work Group\obj\Debug\net8.0\Home Work Group.AssemblyInfoInputs.cache
+D:\.Net\Class Work\Home Work Group\Home Work Group\obj\Debug\net8.0\Home Work Group.AssemblyInfo.cs
+D:\.Net\Class Work\Home Work Group\Home Work Group\obj\Debug\net8.0\Home Work Group.csproj.CoreCompileInputs.cache
+D:\.Net\Class Work\Home Work Group\Home Work Group\obj\Debug\net8.0\Home Work Group.dll
+D:\.Net\Class Work\Home Work Group\Home Work Group\obj\Debug\net8.0\refint\Home Work Group.dll
+D:\.Net\Class Work\Home Work Group\Home Work Group\obj\Debug\net8.0\Home Work Group.pdb
+D:\.Net\Class Work\Home Work Group\Home Work Group\obj\Debug\net8.0\Home Work Group.genruntimeconfig.cache
+D:\.Net\Class Work\Home Work Group\Home Work Group\obj\Debug\net8.0\ref\Home Work Group.dll
