@@ -1,6 +1,6 @@
-﻿namespace Home_Work_Group
+namespace Home_Work_Group
 {
-    internal class ConsoleStudentManager
+    internal class ConsoleStudentManager : IStudentManager<Student>
     {
 
         public int AverageGrade(Student student)
