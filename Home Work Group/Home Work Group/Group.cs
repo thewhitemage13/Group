@@ -1,8 +1,8 @@
-﻿namespace Home_Work_Group
+namespace Home_Work_Group
 {
     enum Spaciality { SoftwareDeveloper, Designer }
 
-    internal class Group : ICloneable
+    internal class Group
     {
         private string groupName;
         private int countOfStudent;
@@ -13,11 +13,6 @@
         public int GetCountOfStudents()
         {
             return countOfStudent;
-        }
-
-        public void AddStudent(Student student)
-        {
-            students.Add(student);
         }
 
         public List<Student> GetStudent()
@@ -72,16 +67,6 @@
             {
                 this.students.Add((Student)student.Clone());
             }
-        }
-
-        public object Clone()
-        {
-            var clonedGroup = new Group(this.groupName, this.spaciality, this.course);
-            foreach (Student student in this.students)
-            {
-                clonedGroup.AddStudent((Student)student.Clone());
-            }
-            return clonedGroup;
         }
     }
 }
