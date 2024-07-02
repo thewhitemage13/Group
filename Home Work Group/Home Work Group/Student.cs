@@ -1,25 +1,25 @@
-﻿namespace Home_Work_Group
+namespace Home_Work_Group
 {
     internal class Student : Person, ICloneable
     {
         List<int> homeworkGrades = new List<int>();
         List<int> examGrades = new List<int>();
         List<int> termPaperGrades = new List<int>();
+        int average_grade;
 
-        public void AddHomeworkGrades(int grade)
+        public int GetAverageGrade()
         {
-            homeworkGrades.Add(grade);
+            return average_grade;
+        }
+
+        public void PlusAverageGrade(int number)
+        {
+            this.average_grade += number;
         }
 
         public List<int> GetHomeworkGrades()
         {
             return homeworkGrades;
-        }
-
-
-        public void AddExamGrades(int grade)
-        {
-            examGrades.Add(grade);
         }
 
         public List<int> GetExamGrades()
@@ -30,11 +30,6 @@
         public List<int> GetTermPaperGrades()
         {
             return termPaperGrades;
-        }
-
-        public void AddTermPaperGrades(int grade)
-        {
-            termPaperGrades.Add(grade);
         }
 
         public Student(string surname, string name, string lastname, DateTime birthday, string adress, int phonenumber) : base(surname, name, lastname, birthday, adress, phonenumber)
@@ -51,7 +46,6 @@
 
         public object Clone()
         {
-            // Копируем все поля
             var clonedStudent = new Student(
                 GetSurname(), GetName(), GetLastname(), GetBirthday(), GetAdress(), GetPhonenumber())
             {
